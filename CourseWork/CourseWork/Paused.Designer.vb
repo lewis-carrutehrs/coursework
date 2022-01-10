@@ -43,7 +43,7 @@ Partial Class Paused
         '
         'res
         '
-        Me.res.Location = New System.Drawing.Point(337, 181)
+        Me.res.Location = New System.Drawing.Point(337, 182)
         Me.res.Name = "res"
         Me.res.Size = New System.Drawing.Size(104, 41)
         Me.res.TabIndex = 16

@@ -8,4 +8,6 @@
     Private Sub HowToPlay_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
         MainMenu.Show()
     End Sub
+
+
 End Class

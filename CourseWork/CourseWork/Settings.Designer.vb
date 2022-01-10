@@ -26,7 +26,7 @@ Partial Class Settingsscreen
         Me.crosshair = New System.Windows.Forms.Button()
         Me.backcolour = New System.Windows.Forms.Button()
         Me.HowTo = New System.Windows.Forms.TextBox()
-        Me.TITLE = New System.Windows.Forms.TextBox()
+        Me.Titlelabel = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'return_to_menu
@@ -35,7 +35,7 @@ Partial Class Settingsscreen
         Me.return_to_menu.ForeColor = System.Drawing.Color.DarkRed
         Me.return_to_menu.Location = New System.Drawing.Point(242, 307)
         Me.return_to_menu.Name = "return_to_menu"
-        Me.return_to_menu.Size = New System.Drawing.Size(322, 93)
+        Me.return_to_menu.Size = New System.Drawing.Size(322, 74)
         Me.return_to_menu.TabIndex = 17
         Me.return_to_menu.Text = "Reurn To Main Menu "
         Me.return_to_menu.UseVisualStyleBackColor = True
@@ -74,17 +74,16 @@ Partial Class Settingsscreen
         Me.HowTo.TabIndex = 14
         Me.HowTo.Text = "Settings"
         '
-        'TITLE
+        'Titlelabel
         '
-        Me.TITLE.BackColor = System.Drawing.SystemColors.MenuHighlight
-        Me.TITLE.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TITLE.Font = New System.Drawing.Font("Comic Sans MS", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TITLE.ForeColor = System.Drawing.Color.DarkRed
-        Me.TITLE.Location = New System.Drawing.Point(13, 14)
-        Me.TITLE.Name = "TITLE"
-        Me.TITLE.Size = New System.Drawing.Size(369, 47)
-        Me.TITLE.TabIndex = 13
-        Me.TITLE.Text = "AIM TRAINER"
+        Me.Titlelabel.AutoSize = True
+        Me.Titlelabel.Font = New System.Drawing.Font("Comic Sans MS", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Titlelabel.ForeColor = System.Drawing.Color.DarkRed
+        Me.Titlelabel.Location = New System.Drawing.Point(-2, 9)
+        Me.Titlelabel.Name = "Titlelabel"
+        Me.Titlelabel.Size = New System.Drawing.Size(270, 48)
+        Me.Titlelabel.TabIndex = 18
+        Me.Titlelabel.Text = "AIM TRAINER"
         '
         'Settingsscreen
         '
@@ -92,11 +91,11 @@ Partial Class Settingsscreen
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.MenuHighlight
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Titlelabel)
         Me.Controls.Add(Me.return_to_menu)
         Me.Controls.Add(Me.crosshair)
         Me.Controls.Add(Me.backcolour)
         Me.Controls.Add(Me.HowTo)
-        Me.Controls.Add(Me.TITLE)
         Me.Name = "Settingsscreen"
         Me.Text = "Settings"
         Me.ResumeLayout(False)
@@ -108,5 +107,5 @@ Partial Class Settingsscreen
     Friend WithEvents crosshair As Button
     Friend WithEvents backcolour As Button
     Friend WithEvents HowTo As TextBox
-    Friend WithEvents TITLE As TextBox
+    Friend WithEvents Titlelabel As Label
 End Class

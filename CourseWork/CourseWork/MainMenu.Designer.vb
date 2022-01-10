@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class MainMenu
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,47 +20,17 @@ Partial Class MainMenu
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.menubox = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.ExitGame = New System.Windows.Forms.Button()
         Me.Settings = New System.Windows.Forms.Button()
         Me.HTP = New System.Windows.Forms.Button()
         Me.PLAY = New System.Windows.Forms.Button()
-        Me.TITLE = New System.Windows.Forms.TextBox()
+        Me.Titlelabel = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Static_Scoreboard = New System.Windows.Forms.Label()
+        Me.Mov_Scoreboard = New System.Windows.Forms.Label()
         Me.SuspendLayout()
-        '
-        'menubox
-        '
-        Me.menubox.BackColor = System.Drawing.SystemColors.MenuHighlight
-        Me.menubox.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.menubox.Font = New System.Drawing.Font("Comic Sans MS", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.menubox.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.menubox.Location = New System.Drawing.Point(250, 118)
-        Me.menubox.Name = "menubox"
-        Me.menubox.Size = New System.Drawing.Size(369, 35)
-        Me.menubox.TabIndex = 15
-        Me.menubox.Text = "Main Menu"
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Location = New System.Drawing.Point(624, 313)
-        Me.TextBox2.Multiline = True
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(164, 116)
-        Me.TextBox2.TabIndex = 14
-        Me.TextBox2.Text = "game mode 2 scoreboard"
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(624, 159)
-        Me.TextBox1.Multiline = True
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(164, 116)
-        Me.TextBox1.TabIndex = 13
-        Me.TextBox1.Text = "game mode 1 scoreboard"
         '
         'ExitGame
         '
@@ -102,45 +72,74 @@ Partial Class MainMenu
         Me.PLAY.Text = "PLAY"
         Me.PLAY.UseVisualStyleBackColor = True
         '
-        'TITLE
+        'Titlelabel
         '
-        Me.TITLE.BackColor = System.Drawing.SystemColors.MenuHighlight
-        Me.TITLE.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TITLE.Font = New System.Drawing.Font("Comic Sans MS", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TITLE.ForeColor = System.Drawing.Color.DarkRed
-        Me.TITLE.Location = New System.Drawing.Point(250, 14)
-        Me.TITLE.Name = "TITLE"
-        Me.TITLE.Size = New System.Drawing.Size(369, 47)
-        Me.TITLE.TabIndex = 8
-        Me.TITLE.Text = "AIM TRAINER"
+        Me.Titlelabel.AutoSize = True
+        Me.Titlelabel.Font = New System.Drawing.Font("Comic Sans MS", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Titlelabel.ForeColor = System.Drawing.Color.DarkRed
+        Me.Titlelabel.Location = New System.Drawing.Point(242, 23)
+        Me.Titlelabel.Name = "Titlelabel"
+        Me.Titlelabel.Size = New System.Drawing.Size(260, 45)
+        Me.Titlelabel.TabIndex = 16
+        Me.Titlelabel.Text = "AIM TRAINER"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Comic Sans MS", 16.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(243, 116)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(154, 39)
+        Me.Label1.TabIndex = 17
+        Me.Label1.Text = "Main Menu"
+        '
+        'Static_Scoreboard
+        '
+        Me.Static_Scoreboard.AutoSize = True
+        Me.Static_Scoreboard.BackColor = System.Drawing.Color.MintCream
+        Me.Static_Scoreboard.Location = New System.Drawing.Point(603, 159)
+        Me.Static_Scoreboard.Name = "Static_Scoreboard"
+        Me.Static_Scoreboard.Size = New System.Drawing.Size(185, 136)
+        Me.Static_Scoreboard.TabIndex = 18
+        Me.Static_Scoreboard.Text = "Static Scoreboard                " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        '
+        'Mov_Scoreboard
+        '
+        Me.Mov_Scoreboard.AutoSize = True
+        Me.Mov_Scoreboard.BackColor = System.Drawing.Color.MintCream
+        Me.Mov_Scoreboard.Location = New System.Drawing.Point(603, 313)
+        Me.Mov_Scoreboard.Name = "Mov_Scoreboard"
+        Me.Mov_Scoreboard.Size = New System.Drawing.Size(187, 136)
+        Me.Mov_Scoreboard.TabIndex = 19
+        Me.Mov_Scoreboard.Text = "Moving Scoreboard              " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'MainMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoSize = True
         Me.BackColor = System.Drawing.SystemColors.MenuHighlight
         Me.ClientSize = New System.Drawing.Size(800, 517)
-        Me.Controls.Add(Me.menubox)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.Mov_Scoreboard)
+        Me.Controls.Add(Me.Static_Scoreboard)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.Titlelabel)
         Me.Controls.Add(Me.ExitGame)
         Me.Controls.Add(Me.Settings)
         Me.Controls.Add(Me.HTP)
         Me.Controls.Add(Me.PLAY)
-        Me.Controls.Add(Me.TITLE)
         Me.Name = "MainMenu"
         Me.Text = "MainMenu"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents menubox As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox1 As TextBox
     Friend WithEvents ExitGame As Button
     Friend WithEvents Settings As Button
     Friend WithEvents HTP As Button
     Friend WithEvents PLAY As Button
-    Friend WithEvents TITLE As TextBox
+    Friend WithEvents Titlelabel As Label
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Static_Scoreboard As Label
+    Friend WithEvents Mov_Scoreboard As Label
 End Class

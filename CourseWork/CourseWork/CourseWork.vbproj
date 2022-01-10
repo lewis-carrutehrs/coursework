@@ -125,6 +125,7 @@
     <Compile Include="Settings.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="targets_A.vb" />
     <Compile Include="TitleScreen.Designer.vb">
       <DependentUpon>TitleScreen.vb</DependentUpon>
     </Compile>

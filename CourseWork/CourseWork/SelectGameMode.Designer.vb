@@ -23,12 +23,12 @@ Partial Class SelectGameMode
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.return_to_menu = New System.Windows.Forms.Button()
-        Me.TextGM2DESCBox2 = New System.Windows.Forms.TextBox()
-        Me.GM1DESC = New System.Windows.Forms.TextBox()
         Me.GM2 = New System.Windows.Forms.Button()
         Me.GM1 = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TITLE = New System.Windows.Forms.TextBox()
+        Me.Titlelabel = New System.Windows.Forms.Label()
+        Me.DESC1 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'return_to_menu
@@ -40,30 +40,6 @@ Partial Class SelectGameMode
         Me.return_to_menu.TabIndex = 18
         Me.return_to_menu.Text = "Reurn to main menu "
         Me.return_to_menu.UseVisualStyleBackColor = True
-        '
-        'TextGM2DESCBox2
-        '
-        Me.TextGM2DESCBox2.BackColor = System.Drawing.SystemColors.MenuHighlight
-        Me.TextGM2DESCBox2.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextGM2DESCBox2.Font = New System.Drawing.Font("Comic Sans MS", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextGM2DESCBox2.ForeColor = System.Drawing.Color.Black
-        Me.TextGM2DESCBox2.Location = New System.Drawing.Point(273, 275)
-        Me.TextGM2DESCBox2.Name = "TextGM2DESCBox2"
-        Me.TextGM2DESCBox2.Size = New System.Drawing.Size(558, 24)
-        Me.TextGM2DESCBox2.TabIndex = 17
-        Me.TextGM2DESCBox2.Text = "Static targets"
-        '
-        'GM1DESC
-        '
-        Me.GM1DESC.BackColor = System.Drawing.SystemColors.MenuHighlight
-        Me.GM1DESC.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.GM1DESC.Font = New System.Drawing.Font("Comic Sans MS", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GM1DESC.ForeColor = System.Drawing.Color.Black
-        Me.GM1DESC.Location = New System.Drawing.Point(273, 168)
-        Me.GM1DESC.Name = "GM1DESC"
-        Me.GM1DESC.Size = New System.Drawing.Size(558, 24)
-        Me.GM1DESC.TabIndex = 16
-        Me.GM1DESC.Text = "Moving targets"
         '
         'GM2
         '
@@ -85,29 +61,46 @@ Partial Class SelectGameMode
         Me.GM1.Text = "GAMEMODE 1"
         Me.GM1.UseVisualStyleBackColor = True
         '
-        'TextBox1
+        'Titlelabel
         '
-        Me.TextBox1.BackColor = System.Drawing.SystemColors.MenuHighlight
-        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox1.Font = New System.Drawing.Font("Comic Sans MS", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.ForeColor = System.Drawing.Color.Black
-        Me.TextBox1.Location = New System.Drawing.Point(137, 115)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(558, 35)
-        Me.TextBox1.TabIndex = 13
-        Me.TextBox1.Text = "Please select the gamemode you wish to play:"
+        Me.Titlelabel.AutoSize = True
+        Me.Titlelabel.Font = New System.Drawing.Font("Comic Sans MS", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Titlelabel.ForeColor = System.Drawing.Color.DarkRed
+        Me.Titlelabel.Location = New System.Drawing.Point(265, 49)
+        Me.Titlelabel.Name = "Titlelabel"
+        Me.Titlelabel.Size = New System.Drawing.Size(260, 45)
+        Me.Titlelabel.TabIndex = 19
+        Me.Titlelabel.Text = "AIM TRAINER"
         '
-        'TITLE
+        'DESC1
         '
-        Me.TITLE.BackColor = System.Drawing.SystemColors.MenuHighlight
-        Me.TITLE.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TITLE.Font = New System.Drawing.Font("Comic Sans MS", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TITLE.ForeColor = System.Drawing.Color.DarkRed
-        Me.TITLE.Location = New System.Drawing.Point(273, 39)
-        Me.TITLE.Name = "TITLE"
-        Me.TITLE.Size = New System.Drawing.Size(369, 47)
-        Me.TITLE.TabIndex = 12
-        Me.TITLE.Text = "AIM TRAINER"
+        Me.DESC1.AutoSize = True
+        Me.DESC1.Font = New System.Drawing.Font("Comic Sans MS", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DESC1.Location = New System.Drawing.Point(131, 112)
+        Me.DESC1.Name = "DESC1"
+        Me.DESC1.Size = New System.Drawing.Size(573, 35)
+        Me.DESC1.TabIndex = 20
+        Me.DESC1.Text = "Please select the gamemode you wish to play:"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Comic Sans MS", 10.0!)
+        Me.Label1.Location = New System.Drawing.Point(267, 171)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(129, 24)
+        Me.Label1.TabIndex = 21
+        Me.Label1.Text = "Static Targets"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Comic Sans MS", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(269, 278)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(134, 24)
+        Me.Label2.TabIndex = 22
+        Me.Label2.Text = "Moving Targets"
         '
         'SelectGameMode
         '
@@ -115,13 +108,13 @@ Partial Class SelectGameMode
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.MenuHighlight
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.DESC1)
+        Me.Controls.Add(Me.Titlelabel)
         Me.Controls.Add(Me.return_to_menu)
-        Me.Controls.Add(Me.TextGM2DESCBox2)
-        Me.Controls.Add(Me.GM1DESC)
         Me.Controls.Add(Me.GM2)
         Me.Controls.Add(Me.GM1)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.TITLE)
         Me.Name = "SelectGameMode"
         Me.Text = "SelectGameMode"
         Me.ResumeLayout(False)
@@ -130,10 +123,10 @@ Partial Class SelectGameMode
     End Sub
 
     Friend WithEvents return_to_menu As Button
-    Friend WithEvents TextGM2DESCBox2 As TextBox
-    Friend WithEvents GM1DESC As TextBox
     Friend WithEvents GM2 As Button
     Friend WithEvents GM1 As Button
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TITLE As TextBox
+    Friend WithEvents Titlelabel As Label
+    Friend WithEvents DESC1 As Label
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
 End Class
